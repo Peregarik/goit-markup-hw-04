@@ -154,11 +154,7 @@ body {
 }
 
 .header-cont-mail:hover,
-.header-cont-tel:hover {
-  color: var(--accent-text-color);
-  fill: var(--accent-text-color);
-}
-
+.header-cont-tel:hover,
 .header-cont-mail:focus,
 .header-cont-tel:focus {
   color: var(--accent-text-color);
@@ -402,18 +398,12 @@ body {
   height: 44px;
 }
 
-.social-link-team:hover {
-  background-color: var(--accent-text-color);
-}
-
-.social-link-team:hover svg {
-  fill: var(--primary-white-color);
-}
-
+.social-link-team:hover,
 .social-link-team:focus {
   background-color: var(--accent-text-color);
 }
 
+.social-link-team:hover svg,
 .social-link-team:focus svg {
   fill: var(--primary-white-color);
 }
@@ -453,14 +443,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.filtr-btn:hover {
-  background-color: var(--accent-text-color);
-  color: var(--primary-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
+.filtr-btn:hover,
 .filtr-btn:focus {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
@@ -482,11 +465,6 @@ body {
   max-width: 370px;
 }
 
-.projects-items:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .card-text {
   padding: 20px 24px;
   border: 1px solid var(--primary-bg-color);
@@ -495,6 +473,13 @@ body {
 
 .projects-link {
   text-decoration: none;
+}
+
+.projects-link:hover,
+.projects-link:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-photo {
@@ -553,7 +538,8 @@ body {
   fill: var(--primary-company-color);
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
@@ -633,10 +619,7 @@ body {
 }
 
 .footer-cont-mail:hover,
-.footer-cont-tel:hover {
-  color: var(--accent-text-color);
-}
-
+.footer-cont-tel:hover,
 .footer-cont-mail:focus,
 .footer-cont-tel:focus {
   color: var(--accent-text-color);
@@ -677,10 +660,7 @@ body {
   background-color: var(--primary-bg-social);
 }
 
-.social-link-footer:hover {
-  background-color: var(--accent-text-color);
-}
-
+.social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--accent-text-color);
 }
